@@ -1,7 +1,8 @@
 {
-  "functions": {
-    "api/reflect.js": {
-      "runtime": "edge"
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/api/reflect"
     }
-  }
+  ]
 }
