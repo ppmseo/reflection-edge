@@ -7,7 +7,7 @@ export default async function handler(request) {
   const incomingPath = reqUrl.searchParams.get('path') || reqUrl.pathname;
   
   // 👇 Tumhara main domain
-  const targetDomain = 'https://sprayfoamgeniusmarketing.com';
+  const targetDomain = 'https://highcountrysol.com/';
   const targetUrl = new URL(incomingPath, targetDomain).toString();
 
   return new Response(`reflect: ${targetUrl}`, {
